@@ -9,10 +9,10 @@ function Other() {
         <div className={styles.landing}>
         <div className="flex w-4/5 mx-auto items-center h-full">
             <div className="bg-white p-4 sm:p-6 md:p-8 shadow-xl">
-                <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-semibold">
+                <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-semibold">
                     Trying to buy or sell <br /> land property ?
                 </h1>
-                <p className="mt-2 text-xs sm:text-sm md:text-base xl:text-lg">
+                <p className="mt-2 text-sm md:text-base xl:text-lg">
                     Now do it easily with our first class consultancy services.
                 </p>
             </div>
@@ -62,7 +62,7 @@ function Other() {
     <div className={`bg-cover bg-center bg-no-repeat flex flex-col justify-center items-center py-20 sm:py-28 md:py-36 lg:py-40 ${styles.contact}`}>
         <div className="w-5/6 md:w-4/6 mx-auto text-center">
             <h2 className="font-semibold text-xl sm:text-2xl md:text-3xl lg:text-4xl">Get in touch</h2>
-            <p className="my-2 text-xs sm:text-sm md:text-base">
+            <p className="my-2 text-sm md:text-base">
                 We would love to hear from you. To reach us or get more information, contact us via phone, email or visit our <Link href="/#contact"><a className="underline">Office</a></Link>. 
             </p>
             <small className="flex text-xl justify-center">

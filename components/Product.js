@@ -41,8 +41,8 @@ function Product({ imgs, points, name, id }) {
               <img src={img} className="h-56 sm:h-80 md:h-96 w-full" alt="" />
             </div>
             <div className="controlers mt-2 md:mt-3 text-center text-secondary-500 text-xl sm:text-2xl">
-                <i aria-hidden="true" className="door-img-controler-1 cursor-pointer far fa-arrow-alt-circle-left md:fa-2x hover:text-secondary-600" onClick={prevImg}></i>
-                <i aria-hidden="true" className="door-img-controler-2 cursor-pointer far fa-arrow-alt-circle-right md:fa-2x mx-0.5 sm:mx-1 hover:text-secondary-600" onClick={nextImg}></i>
+                <i aria-hidden="true" className="cursor-pointer far fa-arrow-alt-circle-left md:fa-2x hover:text-secondary-600" onClick={prevImg}></i>
+                <i aria-hidden="true" className="cursor-pointer far fa-arrow-alt-circle-right md:fa-2x mx-1 hover:text-secondary-600" onClick={nextImg}></i>
             </div>
           </div>
         </div>

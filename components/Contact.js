@@ -4,7 +4,7 @@ function Contact() {
         <section className="bg-primary-300 text-primary-700 pt-5 sm:pt-6 md:pt-8 lg:mt-10">
       <div className="contact-container w-full sm:w-5/6 px-1 sm:mx-auto">
         <h2 className="article-heading text-primary-700 px-1 sm:mx-0">Contact</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5 md:gap-4 lg:gap-0 my-2 sm:my-4 md:my-6 text-xs sm:text-sm lg:text-base">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5 md:gap-4 lg:gap-0 my-2 sm:my-4 md:my-6 text-sm lg:text-base">
           <div className="contact-info lg:col-span-2">
             <div className="address flex my-2">
               <i aria-hidden="true" className="fas fa-map-marker-alt my-1 mx-1 sm:mx-2 md:mx-3"></i>

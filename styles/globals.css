@@ -1,16 +1,53 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+html{
+    scroll-behavior: smooth;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-* {
-  box-sizing: border-box;
+@layer components {
+    .desktop-nav-link{
+        @apply px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none;
+    }
+
+    .article-heading{
+        @apply font-bold text-secondary-600 text-lg sm:text-xl md:text-2xl lg:text-3xl;;
+    }
+
+    .btn{
+        @apply bg-secondary-600 text-white hover:bg-secondary-700 shadow-xl rounded-full py-1 px-4 md:py-1.5 md:px-5 lg:px-6 text-sm md:text-base mt-1;
+    }
+
+    .service-card-container{
+        @apply flex flex-col flex-wrap sm:flex-row sm:justify-center w-5/6 md:w-4/6 lg:w-full mx-auto my-3 sm:grid sm:grid-cols-2 sm:grid-rows-2;
+    }
+    .card{
+        @apply border text-center px-3 py-6 shadow-lg rounded sm:m-2 md:m-3;
+    }
+    .service-text{
+        @apply mt-6 font-semibold text-sm lg:text-base;
+    }
+
+    .showcase-content-bullet-point{
+        @apply text-xs leading-relaxed sm:text-sm md:text-base py-0.5 xl:py-1 flex;
+    }
+
+    .other-showcase-imgs{
+        @apply flex flex-row justify-around mt-6 sm:flex-col sm:justify-start sm:mt-0 lg:flex-row lg:justify-around xl:justify-evenly lg:mt-8 xl:mt-10;
+    }
+    .showcase-container{
+        @apply grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6 md:gap-8 lg:gap-10 xl:gap-0 py-4 sm:py-6 md:py-10 lg:py-14 xl:py-16 w-5/6 md:w-4/6 lg:w-5/6 mx-auto;
+    }
+    .small-showcase-img{
+        @apply mx-auto border-2 lg:border-4 shadow-lg border-primary-200 p-0.5 rounded lg:rounded-md max-h-16 xl:max-h-20 w-auto;  
+    }
+    .large-showcase-img{
+        @apply sm:order-last lg:order-first rounded-md md:rounded-lg overflow-hidden shadow-lg;
+    }
+    .active-showcase-img{
+        @apply border-red-300;
+    }
 }

@@ -1,0 +1,17 @@
+.landing{
+    background: url('../public/img/real-estate-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+
+.points{
+    background-image: url('../public/img/property.jpg');
+    min-height: 50vh;
+    max-height: auto;
+}
+
+.contact{
+    background-image: url('../public/img/contact-bg.jpg');
+}

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="370.317" height="253.779" viewBox="0 0 370.317 253.779">
+  <defs>
+    <filter id="Steel_fabricator_and_Door_" x="11.317" y="203.779" width="359" height="50" filterUnits="userSpaceOnUse">
+      <feOffset dx="18" dy="7" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_3" data-name="Group 3" transform="translate(140.408 -628.791)">
+    <g id="Group_1" data-name="Group 1" transform="translate(-140.212 628.477)">
+      <g id="Path_13" data-name="Path 13" transform="translate(42.814) rotate(19)">
+        <path id="Path_1" data-name="Path 1" d="M155.743,124.454c-60.622,0-116.207-15-138.317-37.32-6.236-6.3-9.366-12.754-9.3-19.2C8.383,40.4,71.131,9.142,160.75,8.308l3.6-.017c60.621,0,116.207,15,138.317,37.319,6.236,6.3,9.366,12.754,9.305,19.2-.263,27.534-63.01,58.8-152.63,59.63Z" fill="#fff"/>
+        <path id="Path_2" data-name="Path 2" d="M164.348,16.291l-3.523.017c-88.04.819-144.509,31.171-144.7,51.706-.04,4.229,2.311,8.768,6.989,13.491,17.231,17.4,64.925,34.949,132.633,34.949l3.524-.017c88.04-.819,144.508-31.171,144.7-51.706.04-4.229-2.311-8.768-6.989-13.491-17.231-17.4-64.925-34.949-132.634-34.949m0-16C250.974.291,320.313,28.9,319.97,64.884c-.348,36.486-72.23,66.73-160.554,67.553-1.224.011-2.456.017-3.673.017C69.118,132.454-.222,103.842.121,67.861.469,31.375,72.352,1.13,160.676.308,161.9.3,163.131.291,164.348.291Z" fill="#20304e"/>
+      </g>
+      <path id="Path_14" data-name="Path 14" d="M148.285.3c81.5-.755,147.3,26.783,146.968,61.507s-66.663,63.485-148.161,64.24S-.206,99.267.124,64.543,66.787,1.058,148.285.3Z" transform="translate(53.289 14.084) rotate(19)" fill="#fff"/>
+    </g>
+    <g id="Group_2" data-name="Group 2" transform="translate(-102.988 656.316)">
+      <g id="Path_11" data-name="Path 11" transform="translate(33.399) rotate(19)">
+        <path id="Path_3" data-name="Path 3" d="M121.709,95.537C74.8,95.537,31.879,84.022,14.9,66.883,10.359,62.3,8.078,57.669,8.121,53.114,8.312,32.418,56.569,8.925,125.51,8.3l2.7-.012c46.906,0,89.83,11.515,106.811,28.654,4.54,4.581,6.82,9.214,6.778,13.769-.191,20.7-48.448,44.189-117.389,44.81Z" fill="#fff"/>
+        <path id="Path_4" data-name="Path 4" d="M128.213,16.291l-2.631.012C54.971,16.94,16.233,41,16.12,53.188c-.027,2.918,2.411,6,4.461,8.065,12.543,12.66,49.54,26.285,101.128,26.285l2.631-.012c70.611-.637,109.35-24.7,109.462-36.885.027-2.918-2.411-6-4.461-8.065C216.8,29.916,179.8,16.291,128.213,16.291m0-16c67.662,0,121.848,22.376,121.588,50.5-.263,28.5-56.369,52.115-125.316,52.736-.926.009-1.855.013-2.776.013C54.047,103.537-.139,81.161.121,53.04.384,24.536,56.49.925,125.438.3,126.363.3,127.292.291,128.213.291Z" fill="#818181"/>
+      </g>
+      <path id="Path_12" data-name="Path 12" d="M113.181.3c62.2-.549,112.43,20.514,112.19,47.045S174.514,95.829,112.313,96.379-.116,75.865.123,49.333,50.981.848,113.181.3Z" transform="translate(40.616 16.396) rotate(19)" fill="#fff"/>
+    </g>
+    <ellipse id="Ellipse_6" data-name="Ellipse 6" cx="81.5" cy="29" rx="81.5" ry="29" transform="translate(-98.799 691.07) rotate(4.992)" fill="#fff"/>
+    <text id="S" transform="translate(16.875 829.567)" fill="#20304e" font-size="110" font-family="CambriaMath, Cambria Math"><tspan x="0" y="0">S</tspan></text>
+    <text id="B" transform="translate(-28.125 792.567)" fill="#20304e" font-size="110" font-family="Cambria"><tspan x="0" y="0">B</tspan></text>
+    <g transform="matrix(1, 0, 0, 1, -140.41, 628.79)" filter="url(#Steel_fabricator_and_Door_)">
+      <text id="Steel_fabricator_and_Door_2" data-name="Steel fabricator and Door  " transform="translate(11.32 229.78)" fill="#20304e" font-size="22" font-family="Cambria-Bold, Cambria" font-weight="700"><tspan x="0" y="0">STEEL FABRICATOR AND DOORS </tspan></text>
+    </g>
+  </g>
+</svg>

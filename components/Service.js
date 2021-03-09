@@ -19,7 +19,7 @@ function Service() {
                     <div className="service-text">Japanese Steel Door Frame and Window</div>
                 </div>
                 <div className="card sm:order-3">
-                    <img src="/img/staircase.png" className="mx-auto" />
+                    <Image src="/img/staircase.png" width="60" height="60" className="mx-auto" />
                     <div className="service-text">Stainless Steel Railing for Stairs and Balcony</div>
                 </div>
             </div>

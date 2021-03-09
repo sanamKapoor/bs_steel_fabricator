@@ -11,7 +11,7 @@ function Showcase() {
       <div className="showcase-images xl:mx-10">
         <div className="flex flex-col sm:flex-row lg:flex-col">
           <div className="large-showcase-img">
-            <img src={src} className="object-fill h-auto sm:max-h-96 w-full" alt="" />
+            <Image src={src} width="600" height="450" className="rounded-md md:rounded-lg overflow-hidden shadow-lg" alt="" />
           </div>
           <div className="other-showcase-imgs">
             <div className="small-img-card cursor-pointer text-center sm:mr-8 lg:mx-0">

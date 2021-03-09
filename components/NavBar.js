@@ -15,7 +15,7 @@ function NavBar() {
         <div className="flex flex-col max-w-screen-xl px-2 mx-auto md:items-center md:justify-between md:flex-row">
           <div className="p-3 sm:p-4 flex flex-row items-center justify-between">
             <a href="#" className="text-lg font-semibold tracking-widest text-gray-900 uppercase rounded-lg">
-              <img src="/img/logo.svg" className="w-20 sm:w-24 md:w-28 " alt="" />
+              <Image src="/img/logo.svg" width="100" height="70" alt="" />
             </a>
             <button className="md:hidden rounded-lg focus:outline-none focus:shadow-outline" onClick={() => setOpenMenu(!openMenu)}>
               <svg fill="currentColor" viewBox="0 0 20 20" className="w-6 h-6">

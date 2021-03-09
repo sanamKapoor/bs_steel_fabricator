@@ -38,7 +38,7 @@ function Product({ imgs, points, name, id }) {
         <div className={`showcase-images xl:mx-10 ${id % 2 === 0 ? 'lg:order-last' : ''}`}>
           <div className="flex flex-col">
             <div className="large-showcase-img order-first" id="door-img">
-              <img src={img} className="h-56 sm:h-80 md:h-96 w-full" alt="" />
+              <Image src={img} width="700" height="500" className="rounded-md md:rounded-lg overflow-hidden shadow-lg" alt="" />
             </div>
             <div className="controlers mt-2 md:mt-3 text-center text-secondary-500 text-xl sm:text-2xl">
                 <i aria-hidden="true" className="cursor-pointer far fa-arrow-alt-circle-left md:fa-2x hover:text-secondary-600" onClick={prevImg}></i>

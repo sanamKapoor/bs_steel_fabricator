@@ -5,7 +5,7 @@ function About() {
     return (
     <section id="about" className="w-5/6 md:w-4/6 lg:w-full mx-auto lg:px-12 xl:px-24 py-8 sm:py-10 lg:py-16 grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-0">
       <div className="about-img place-items-auto">
-        <img src="/img/Balwinder Singh.jpg" className="h-auto w-full" alt="" />
+        <Image src="/img/Balwinder Singh.jpg" width="1000" height="684" layout="intrinsic" />
       </div>
       <div className="about-content inline-block md:place-self-center lg:bg-primary-50 lg:border  lg:p-4 xl:p-6 lg:w-full lg:shadow-lg z-10 relative lg:mr-24 xl:mr-24">
         <h2 className="article-heading">About</h2>

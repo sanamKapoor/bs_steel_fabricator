@@ -25,8 +25,7 @@ function Contact() {
             <div className="email flex my-2">
               <i aria-hidden="true" className="fas fa-envelope my-1 mx-1 sm:mx-2 md:mx-3"></i>
               <span>
-                <a href="mailto:support@bssteelfabricator.com">support@bssteelfabricator.com</a>
-                <br /> 
+                {/* <a href="mailto:support@bssteelfabricator.com">support@bssteelfabricator.com</a> */}
                 <a href="mailto:balwindersingh58586@gmail.com">balwindersingh58586@gmail.com</a>
               </span>
             </div>

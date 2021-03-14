@@ -69,7 +69,7 @@ function Other() {
                 <a href="tel:+919416458586">
                     <i aria-hidden="true" className="cursor-pointer text-primary-600 hover:text-primary-800 fas fa-phone-square-alt"></i>
                   </a>
-                  <a href="mailto:support@bssteelfabricator.com">
+                  <a href="mailto:balwindersingh58586@gmail.com">
                     <i aria-hidden="true" className="cursor-pointer text-primary-600 hover:text-primary-800 fas fa-envelope mx-1.5 sm:mx-2"></i>
                   </a>
                   <a href="https://www.facebook.com/bssteelfabricatoranddoors" target="_blank">

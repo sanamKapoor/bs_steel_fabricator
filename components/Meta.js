@@ -6,6 +6,7 @@ const Meta = ({ title, keywords, description }) => {
       <meta name='viewport' content='width=device-width, initial-scale=1' />
       <meta name='keywords' content={keywords} />
       <meta name='description' content={description} />
+      <meta name="msvalidate.01" content="BC521B11B3711C6DDC71123C9C5BE31A" />
       <title>{title}</title>
     </Head>
   )

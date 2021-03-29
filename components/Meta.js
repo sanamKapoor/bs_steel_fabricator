@@ -13,8 +13,8 @@ const Meta = ({ title, keywords, description }) => {
       <meta name="msvalidate.01" content="BC521B11B3711C6DDC71123C9C5BE31A" />
       <link rel="canonical" href="https://bssteelfabricator.com/" />
       <link rel="shortcut icon" href="/img/logo.ico" type="image/x-icon"/>
-      <script async src="https://kit.fontawesome.com/f5be5aaf66.js" crossOrigin="anonymous"></script>
-    </Head>
+      <script src="https://kit.fontawesome.com/91e25bab1c.js" crossorigin="anonymous"></script>
+      </Head>
   )
 }
 

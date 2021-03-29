@@ -1,17 +1,17 @@
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
 import Product from '../components/Product';
-import { AllProducts } from '../public/Data/products';
 import Meta from '../components/Meta';
+import { AllProducts } from '../public/Data/products';
 
-function products() {
+function products({products}) {
     return (
         <>
           <Meta title="B.S Steel Fabricator and Doors | Products" />
           <NavBar />
           <main>
             {
-                AllProducts.map((product) => (
+                products.map((product) => (
                     <Product key={product.id} imgs={product.images} points={product.points} name={product.title} id={product.id} />
                 ))
             }
@@ -19,6 +19,14 @@ function products() {
           <Footer />  
         </>
     )
+}
+
+export function getStaticProps(){
+  return {
+    props:{
+      products: AllProducts
+    }
+  }
 }
 
 export default products

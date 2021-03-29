@@ -3,11 +3,17 @@ import Head from 'next/head'
 const Meta = ({ title, keywords, description }) => {
   return (
     <Head>
+      <meta charSet='utf-8' />
+      <title>{title}</title>
+      <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
+      <meta name="robots" content="follow, index" />
       <meta name='viewport' content='width=device-width, initial-scale=1' />
       <meta name='keywords' content={keywords} />
       <meta name='description' content={description} />
       <meta name="msvalidate.01" content="BC521B11B3711C6DDC71123C9C5BE31A" />
-      <title>{title}</title>
+      <link rel="canonical" href="https://bssteelfabricator.com/" />
+      <link rel="shortcut icon" href="/img/logo.ico" type="image/x-icon"/>
+      <script async src="https://kit.fontawesome.com/f5be5aaf66.js" crossOrigin="anonymous"></script>
     </Head>
   )
 }

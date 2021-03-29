@@ -10,11 +10,9 @@ const Meta = ({ title, keywords, description }) => {
       <meta name='viewport' content='width=device-width, initial-scale=1' />
       <meta name='keywords' content={keywords} />
       <meta name='description' content={description} />
-      <meta name="msvalidate.01" content="BC521B11B3711C6DDC71123C9C5BE31A" />
       <link rel="canonical" href="https://bssteelfabricator.com/" />
       <link rel="shortcut icon" href="/img/logo.ico" type="image/x-icon"/>
-      <script src="https://kit.fontawesome.com/91e25bab1c.js" crossorigin="anonymous"></script>
-      </Head>
+    </Head>
   )
 }
 
